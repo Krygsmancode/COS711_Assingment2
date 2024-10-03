@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+src/dataPreperation.ipynb filter=lfs diff=lfs merge=lfs -text
+src/.ipynb_checkpoints/dataPreperation-checkpoint.ipynb filter=lfs diff=lfs merge=lfs -text
