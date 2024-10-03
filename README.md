@@ -5,11 +5,9 @@ COS711_Assingment2/
 │
 ├── src/                      # Source code directory
 │   ├── source.ipynb # Jupyter notebook with all source code
-│   └── .ipynb_checkpoints/   # Checkpoints for Jupyter notebooks
-│       └── dataPreperation-checkpoint.ipynb
-│
+│   └── results.csv # the results table for RProp and Adam
+│   └── results_hybrid # results table for the Hybrid model
 └── README.md                 # This README file
-└── requirements.txt
 
 
 Installation
@@ -18,9 +16,6 @@ git clone https://github.com/Krygsmancode/COS711_Assingment2.git
 
 Navigate to the cloned directory:
 cd COS711_Assingment2
-
-Install the required Python packages:
-pip install -r requirements.txt
 
 running the Code
 To run the code, follow these steps:
